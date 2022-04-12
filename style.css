@@ -1,0 +1,34 @@
+body{
+ background: lightblue;
+}
+div{
+  margin: 40px auto;
+  width: 120px;
+}
+.ball{
+  height: 50px;
+  width:  50px;
+  border-radius: 50%;
+  background: red;
+  animation: bounce 700ms infinite;
+}
+@keyframes bounce{
+  45%{
+    height: 50px;
+    width: 50px;
+}
+  50%{
+ transform: translateY(45px);
+  height: 50px;
+  width: 50px;
+}
+  65%{
+  height: 50px;
+    width: 50px;
+}
+.shadow{  
+height: 50px;
+width:  50px;
+border-radius: 50%;
+background: gray;
+}
